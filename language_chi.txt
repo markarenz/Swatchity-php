@@ -1,0 +1,36 @@
+{
+"feed_header_text_input":"什么是你最喜欢的颜色?",
+
+
+"swatchity_news_header":"Swatchity 新闻",
+
+"profile_edit_q1":"1: 你以什么为生?",
+"profile_edit_q2":"2: 什么是你的追求?",
+"profile_edit_q3":"3: 如果你是一棵树，你会是什么样的树? ",
+"profile_edit_q4":"4: 算盘 - 是或否?",
+
+"btn_text_return":"回报",
+
+"message_feed_header":"消息",
+"notifications_feed_header":"通知",
+
+"favrorited_your_swatch":"喜欢你 swatch",
+
+"user_search_attention":"注意",
+"profile_stat_attention_text":"注意",
+
+"color_search_txt_label":"搜索彩:",
+
+"feed_header_color_search_text_input":"我的搜索彩:",
+
+"btn_load_more_text":"装载更多",
+
+"txt_the_exalted":"上人",
+"txt_top_swatchers":"最好 Swatchers",
+"txt_trending":"流行",
+
+"profile_stat_points_to_go_text":"级别++",
+
+
+"last_item":"30"
+}

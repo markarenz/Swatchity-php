@@ -1,0 +1,38 @@
+{
+"feed_header_text_input":"{3IP6/H7/1B58/KP4B8H6L/NBEB8*}",
+
+
+"swatchity_news_header":"{73P6NIH61/CL37}",
+
+"profile_edit_q1":"1: {3IP6/MB/1B5/MB/KB8/P/EH4HCJ*}",
+"profile_edit_q2":"2: {3IP6/H7/1B58/A8BJ8PD}",
+"profile_edit_q3":"3: {HK/1B5/3L8L/P/68LL^/3IP6/7B86/BK/68LL/3B5EM/1B5/OL*}",
+"profile_edit_q4":"4: {GP4P/-/1L7/B8/CB*}",
+
+"btn_text_return":"{8L658C}",
+
+"message_feed_header":"{DL77PJL7}",
+"notifications_feed_header":"{CB6HKHNP6HBC7}",
+
+"favrorited_your_swatch":"{KP48B8H6LM/1B58/73P6NI}",
+
+"user_search_attention":"{P66LC6HBC}",
+"profile_stat_attention_text":"{P66LC6HBC}",
+
+"color_search_txt_label":"{7LP8NI/NBEB8}:",
+
+"feed_header_color_search_text_input":"{D1/7LP8NI/NBEB8}:",
+
+"btn_load_more_text":"{EBPM/DB8L}",
+
+"txt_the_exalted":"{L2PE6LM/BCL7}",
+"txt_top_swatchers":"{6BA/73P6NIL87}",
+"txt_trending":"{68LCMHCJ}",
+
+"profile_stat_points_to_go_text":"{EL4LE}++",
+
+"congratulations_on_achieving_level":"{NBCJ8P65EP6HBC7/BC/PNIHL4HCJ/EL4LE}",
+
+
+"last_item":"30"
+}

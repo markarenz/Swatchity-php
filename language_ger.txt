@@ -1,0 +1,37 @@
+{
+"feed_header_text_input":"Was ist deine lieblingsfarbe?",
+
+
+"swatchity_news_header":"Swatchity Nachrichten",
+
+"profile_edit_q1":"1: Was machen sie beruflich?",
+"profile_edit_q2":"2: Was ist ihre suche?",
+"profile_edit_q3":"3: Wenn sie ein baum war , welche art von baum wären sie? ",
+"profile_edit_q4":"4: Sandale- ja oder nein?",
+
+"btn_text_return":"Rückkehr",
+
+"message_feed_header":"Nachrichten",
+"notifications_feed_header":"Aktivität",
+
+"favrorited_your_swatch":"gefallen ihre swatch",
+
+"user_search_attention":"Achtung",
+"profile_stat_attention_text":"Achtung",
+
+"color_search_txt_label":"Suche farbe:",
+
+"feed_header_color_search_text_input":"Meine farbe:",
+
+"btn_load_more_text":"Mehr laden",
+
+"txt_the_exalted":"der Erhabene",
+"txt_top_swatchers":"Beste Swatchers",
+"txt_trending":"Jetzt",
+
+"profile_stat_points_to_go_text":"Höhe++",
+
+"congratulations_on_achieving_level":"Herzlichen Glückwunsch zum Erreichen Ebene",
+
+"last_item":"30"
+}

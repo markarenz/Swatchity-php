@@ -1,0 +1,37 @@
+{
+"feed_header_text_input":"Какой ваш любимый цвет?",
+
+
+"swatchity_news_header":"Swatchity новости",
+
+"profile_edit_q1":"1: Что вы делаете для работы?",
+"profile_edit_q2":"2: Что ваши поиски?",
+"profile_edit_q3":"3: Если бы вы былидеревом, какой дерева вы бы? ",
+"profile_edit_q4":"4: квас- Да или нет?",
+
+"btn_text_return":"возвращение",
+
+"message_feed_header":"сообщения",
+"notifications_feed_header":"Уведомления",
+
+"favrorited_your_swatch":"понравился ваш swatch",
+
+"user_search_attention":"внимание",
+"profile_stat_attention_text":"внимание",
+
+"color_search_txt_label":"Поиск цвета:",
+
+"feed_header_color_search_text_input":"Мой поиск цвета:",
+
+"btn_load_more_text":"Загрузи больше",
+
+"txt_the_exalted":"Возвышенный те",
+"txt_top_swatchers":"лучший Swatchers",
+"txt_trending":"тренд",
+
+"profile_stat_points_to_go_text":"уровень++",
+
+"congratulations_on_achieving_level":"Поздравляем достижение уровня",
+
+"last_item":"30"
+}

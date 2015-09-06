@@ -1,0 +1,36 @@
+{
+"feed_header_text_input":"Quelle est ta couleur préférée?",
+
+
+"swatchity_news_header":"Swatchity Nouvelles",
+
+"profile_edit_q1":"1: Que faites-vous pour un emploi?",
+"profile_edit_q2":"2: Quel est votre quête?",
+"profile_edit_q3":"3: Si vous étiez un arbre , quelle sorte d'arbre seriez-vous? ",
+"profile_edit_q4":"4: Berets- oui ou non?",
+
+"btn_text_return":"Retour",
+
+"message_feed_header":"Messages",
+"notifications_feed_header":"Activité",
+
+"favrorited_your_swatch":"aimé votre swatch",
+
+"user_search_attention":"Prévenances",
+"profile_stat_attention_text":"Prévenances",
+
+"color_search_txt_label":"Recherche couleur:",
+
+"feed_header_color_search_text_input":"Mon recherche couleur:",
+
+"btn_load_more_text":"Charger Plus",
+
+"txt_the_exalted":"le Exalté",
+"txt_top_swatchers":"Meilleur Swatchers",
+"txt_trending":"Maintenant",
+
+
+"profile_stat_points_to_go_text":"Niveau++",
+
+"last_item":"30"
+}

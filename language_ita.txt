@@ -1,0 +1,38 @@
+{
+"feed_header_text_input":"Qual è il tuo colore preferito?",
+
+
+"swatchity_news_header":"Swatchity Notizie",
+
+"profile_edit_q1":"1: Cosa fai per un posto di lavoro?",
+"profile_edit_q2":"2: Qual è la vostra missione?",
+"profile_edit_q3":"3: Se tu fossi un albero , che tipo di albero sareste? ",
+"profile_edit_q4":"4: Ciclomotori- sì o no?",
+
+"btn_text_return":"Ritorno",
+
+"message_feed_header":"Messaggi",
+"notifications_feed_header":"Notifiche",
+
+"favrorited_your_swatch":"è piaciuto il tuo swatch",
+
+"user_search_attention":"Attenzione",
+"profile_stat_attention_text":"Attenzione",
+
+"color_search_txt_label":"Ricerca colore:",
+
+"feed_header_color_search_text_input":"La mia ricerca colore:",
+
+"btn_load_more_text":"Carica Altro",
+
+"txt_the_exalted":"Quelli esaltato",
+"txt_top_swatchers":"migliore Swatchers",
+"txt_trending":"Ora",
+
+"profile_stat_points_to_go_text":"Livello++",
+
+"congratulations_on_achieving_level":"Congratulazioni a livello raggiungimento",
+
+
+"last_item":"30"
+}

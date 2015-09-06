@@ -1,0 +1,36 @@
+{
+"feed_header_text_input":"What is on your mind?",
+
+"swatchity_news_header":"Swatchity News",
+
+"profile_edit_q1":"1: What doth one do for a living?",
+"profile_edit_q2":"2: What is thy quest?",
+"profile_edit_q3":"3: Who is thy favourite Chaucerian personage? ",
+"profile_edit_q4":"4: Leeches- aye or nae?",
+
+"btn_text_return":"Return",
+
+"message_feed_header":"Missives",
+"notifications_feed_header":"Notices",
+
+"favrorited_your_swatch":"favrourited thy swatch",
+
+"user_search_attention":"Attention",
+"profile_stat_attention_text":"Attention",
+
+"color_search_txt_label":"Search colour:",
+
+"feed_header_color_search_text_input":"Thy search colour:",
+
+"btn_load_more_text":"Loadeth More",
+
+"txt_the_exalted":"Exalted Ones",
+"txt_top_swatchers":"Toppermost Swatchers",
+"txt_trending":"What Trendeth",
+
+"profile_stat_points_to_go_text":"Level++",
+
+"congratulations_on_achieving_level":"Cheers on achieving level",
+
+"last_item":"30"
+}

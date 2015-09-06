@@ -1,0 +1,38 @@
+{
+"feed_header_text_input":"¿Cuál es tu color favorito?",
+
+
+"swatchity_news_header":"Swatchity Noticias",
+
+"profile_edit_q1":"1: ¿Qué se hace para un trabajo ?",
+"profile_edit_q2":"2: ¿What is your quest ?",
+"profile_edit_q3":"3: ¿Cuál es su misión ?",
+"profile_edit_q4":"4: ¿Sandalias- sí o no?",
+
+"btn_text_return":"Retorno",
+
+"message_feed_header":"Mensajes",
+"notifications_feed_header":"Notificaciones",
+
+"favrorited_your_swatch":"gustado su swatch",
+
+"user_search_attention":"Atención",
+"profile_stat_attention_text":"Atención",
+
+"color_search_txt_label":"Búsqueda en color:",
+
+"feed_header_color_search_text_input":"Mi color de búsqueda:",
+
+"btn_load_more_text":"Carga Más",
+
+"txt_the_exalted":"El Exaltado",
+"txt_top_swatchers":"Mejor Swatchers",
+"txt_trending":"Ahora",
+
+"profile_stat_points_to_go_text":"Nivel++",
+
+"congratulations_on_achieving_level":"Felicitaciones por el logro de nivel",
+
+
+"last_item":"30"
+}
