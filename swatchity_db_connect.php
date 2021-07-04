@@ -1,7 +1,7 @@
 <?php
-$db_host="esquelle.ridiculopathy.dreamhosters.com";
-$db_user="swatchity_mysql";
-$db_password="oSbNu7f29bN_d6cyski";
+$db_host="DB_HOST";
+$db_user="DB_USER";
+$db_password="DB_PASSWORD";
 $db_selected_db="swatchity_mysql";
 
 // v4 uses mysqli in procedural mode
