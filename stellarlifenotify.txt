@@ -1,2 +1,0 @@
-"test2@dmain.com","test"
-"test3@domain.com","test3"

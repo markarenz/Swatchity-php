@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php if (isset($_COOKIE['user_level'])){$user_level=$_COOKIE['user_level']*1;} else { $user_level=-1;}?>
+<?php if (isset($_SESSION['user_level'])){$user_level=$_SESSION['user_level']*1;} else { $user_level=-1;}?>
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 <head>
 	<meta charset="UTF-8">
@@ -19,15 +19,6 @@
 	<link href='http://fonts.googleapis.com/css?family=Belgrano' rel='stylesheet' type='text/css'>
 	<link rel='stylesheet' href='/swatchity.css' type='text/css' media='all' />
 	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	
-	  ga('create', 'UA-64444798-1', 'auto');
-	  ga('send', 'pageview');
-
-
 	var jump_to_login=false;
 	<?php 
 		if (isset($_GET['login'])){
@@ -662,17 +653,9 @@ console.log(data);
 </div>
 
 
-
-
-
-
-
-
-
 <!--
 					<a href="#" onclick="swatchity_logout(); return false;">log out</a>
 -->
 
 </body>
 </html>
-

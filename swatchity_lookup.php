@@ -1,5 +1,6 @@
 <?php
 	error_reporting(0);
+  session_start();
 	include('swatchity_config.php');
 	include('swatchity_db_connect.php');
 	include('swatchity_functions.php');
@@ -517,8 +518,8 @@
 			$q="select * from users where user_name like '$user_name' AND user_email like '$user_email'";
 			$result=mysqli_query($db,$q);
 			if ($row=mysqli_fetch_assoc($result)){
-				setcookie("user_name", $user_name, time()+3600*24*100, "/", "swatchity.com");
-				setcookie("user_password", $user_password, time()+3600*24*100, "/", "swatchity.com");
+        $_SESSION['user_name'] = $user_name;
+        $_SESSION['user_password'] = $user_password;
 				echo json_encode($row);
 			}
 			mysqli_free_result($result);
@@ -534,10 +535,10 @@
 			}
 			mysqli_free_result($result);
 		break;
-		case "login_cookies":
-			if ( ($mode=="login_cookies") && (isset($_COOKIE['user_name'])) ){
-				$user_name=$_COOKIE['user_name'];
-				$user_password=$_COOKIE['user_password'];
+		case "login_session":
+			if ( ($mode=="login_session") && (isset($_SESSION['user_name'])) ){
+				$user_name=$_SESSION['user_name'];
+				$user_password=$_SESSION['user_password'];
 			}
 		case "login":
 			if (!isset($user_name)){
@@ -547,17 +548,17 @@
 			$q="select * from users where user_name like '$user_name' AND user_password like '$user_password'";
 			$result=mysqli_query($db,$q);
 			if ($row=mysqli_fetch_assoc($result)){
-				setcookie("user_name", $user_name, time()+3600*24*100, "/", "swatchity.com");
-				setcookie("user_password", $user_password, time()+3600*24*100, "/", "swatchity.com");
-				setcookie("user_level", $row['user_level'], time()+3600*24*100, "/", "swatchity.com");
+        $_SESSION['user_name'] = $user_name;
+        $_SESSION['user_password'] = $user_password;
+        $_SESSION['user_level'] = $row['user_level'];
 				echo json_encode($row);
 			}
 			mysqli_free_result($result);
 			break;
 		case "logout":
-				setcookie("user_name", "", time()+3600*24*100, "/", "swatchity.com");
-				setcookie("user_password", "", time()+3600*24*100, "/", "swatchity.com");
-				setcookie("user_level", "-1", time()+3600*24*100, "/", "swatchity.com");
+      $_SESSION['user_name'] = '';
+      $_SESSION['user_password'] = '';
+      $_SESSION['user_level'] = -1;
 			break;
 	}
 
