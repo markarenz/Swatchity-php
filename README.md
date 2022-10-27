@@ -1,14 +1,13 @@
 # Swatchity (2010's Version)
 
-## About Swatchity
+## Background
+Swatchity is a social media network where you can only post colors. In that sense, it's largely useless but at the same time highly functional. When I was working on it back in 2014(?) I would describe it to people who would invariably ask, "why do this?" I don't think I ever articulated an answer that satisfied people. I think the real reason had to do with the conversations we would have about it, how silly and impossibly dumb it all was.
 
-- I'm a bit of a social media crumudgeon, I suppose. If people aren't shouting nonsense or deliberate misinformation at the sky or committinh outright fraud, they're trying to convince me (or themselves) that they are more important than they appear to be. Most posts I see elicit a wince. 
-  - "Do you think threats will make people agree with your point of view?"
-  - "Why did you take video of this? Who is this for?" 
-- Social media is gross, and yet I'm part of it, just like hundreds of millions of us. It's the smelly, polluted water in which we all must swim in order to participate in the culture. What about a social media app where you couldn't be horrible to other people- or at least it was difficult to be horrible?
-- The core idea is that Swatchity is a place where you can only post colors. You can message people with colors. You can search other posts by color. You can see the popularity of the colors you post in meaningless statistics to give you a sense of your own relevance. It's got everything you need for that social media dopamine hit.
-- Also, the idea of something fully featured but utterly useless is deeply amusing to me. If someone finds this in 20 years and wonders "what even the heck is this?" then the effort will have been worthwhile. The prophecy will have come to fruition.
-- I mentioned the idea to my kids, who were then in their early-to-mid teens at the time and firmly ensconsed in social media. They agreed that this was a very dumb idea, indeed, so dumb that I had to make it real. So, I did, and they helped beta test it. Sadly, I took Swatchity offline last year since it no longer made sense to maintain a pricey VPC to host this silly thing. Soon, I plan to rebuild it with modern frameworks.
+Another reason I made it is because useless yet functional things fascinate and amuse me as creative works. At the time I was thinking about jokes that take a generations or centuries to tell. Specifically, I was thinking of creating a machine that did nothing and burying it somewhere for achaeologists to find after a few millennia and argue over its purpose or, indeed, if if was made by humans at all.
+
+I thought of Swatchity like that. Something that would live in the background for someone to find while searching the web for color scheme ideas, to slowly wade into its weirdness and (spoiler alert) uncover the (fake) cultish underpinnings of the project as they post more colors and level up.
+
+It amused me to think of someone posting a link on Reddit as if they'd discovered this shady organization recruiting members and talking about colors. Or it could slip into obscurity like everything else we make, and that's OK, too.
 
 ### TLDR Version
 - Swatchity is a social media app where you can only post colors. It is highly functional and utterly useless. I made it because this amuses me.
