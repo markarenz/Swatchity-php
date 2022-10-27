@@ -341,10 +341,10 @@ function show_level(){
 		jQuery('#main_loading').fadeIn(250);
 	}
 }
-function check_login_cookies(){
-	my_url='swatchity_lookup.php?mode=login_cookies';
+function check_login_session(){
+	my_url='swatchity_lookup.php?mode=login_session';
 	$.post(my_url, {
-		cookies_check:'true',
+		session_check:'true',
 	}, function(data, textStatus){
 		if (data.charAt(0)=="{"){
 			user = jQuery.parseJSON( data );
@@ -454,7 +454,7 @@ function reset_feed(){
 	scroll_to_top_of_screen();
 	last_swatch_id=0;
 	results_page=0;
-	jQuery('#ui_feed').html('<div class="activity_indicator" style="display:block;text-align:center"><img src="http://www.swatchity.com/images/swatchity_activity.gif"></div>');
+	jQuery('#ui_feed').html('<div class="activity_indicator" style="display:block;text-align:center"><img src="images/swatchity_activity.gif"></div>');
 }
 function scroll_to_top_of_screen(){
 	//jQuery('#ui_panel_home').scrollTop(0);
@@ -493,8 +493,9 @@ function ui_transition_to(panel_id){
 }
 function swatchity_logout(){
 	my_url='swatchity_lookup.php?mode=logout';
+  hide_menu();
 	$.post(my_url, {
-		cookies_check:'true',
+		session_check:'true',
 	}, function(data, textStatus){
 		jQuery('#disp_user_name').html('');
 		ui_transition_to('ui_panel_public');
@@ -1360,7 +1361,7 @@ function init_ads(){
 	
 }
 jQuery( document ).ready(function() {
-	check_login_cookies();
+	check_login_session();
 	init_ui();
 	init_mobile();
 	init_public();

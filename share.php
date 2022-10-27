@@ -16,7 +16,7 @@
 		$dec=dechex($hex);
 		$hex=dechex($dec);
 	}
-	$img_url="http://www.swatchity.com/swatchity_image.php?hex=".$hex;
+	$img_url=$swatchity_config['base_domain']."/swatchity_image.php?hex=".$hex;
 	$user_profile_bits=explode(",",$swatch['user_profile']);
 	for ($i=0;$i<=3;$i++){
 		if ($user_profile_bits[$i]==""){
@@ -24,7 +24,7 @@
 		}
 	}
 	$timestamp=date('D M j @h:ia',strtotime($swatch['swatch_date']));
-	$this_url="http://www.swatchity.com/share.php?id=".$id;
+	$this_url=$swatchity_config['base_domain']."/share.php?id=".$id;
 	$short_url=make_bitly_url($this_url,'swatchitybitly','R_3e4fa3bfc8d4491199e9ef82e1590bfd');
 
 ?><!DOCTYPE html>
@@ -56,17 +56,17 @@
 	</head>
 	<body>
 			<div class="casual_header">
-				<a href="http://www.swatchity.com"><img src="images/swtchity_logo_100.png" alt="logo" style="margin-top:20px;"></a>
+				<a href="<?php echo $swatchity_config['base_domain']; ?>"><img src="images/swtchity_logo_100.png" alt="logo" style="margin-top:20px;"></a>
 			</div>
 
 			<div class="share_swatch_container">
 
 				<div style="text-align:right">
-					<a href="http://www.swatchity.com?login=true">login/register</a>
+					<a href="<?php echo $swatchity_config['base_domain']; ?>?login=true">login/register</a>
 				</div>
 
 				<div class="share_swatch" id="swatch_main" style="background-color:#<?php echo $hex; ?>">
-					<img src="http://www.swatchity.com/swatchity_image.php?hex=<?php echo $hex; ?>">
+					<img src="<?php echo $swatchity_config['base_domain']; ?>/swatchity_image.php?hex=<?php echo $hex; ?>">
 				</div>
 				<div class="share_swatch_caption">
 					<div class="feed_profile_badge">
@@ -83,7 +83,7 @@
 				
 				<div class="v_spacer_50"></div>
 				<div style="text-align:center">
-					<a class="share_btn share_btn_facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?php echo $this_url; ?>&t=Swatchity+-+Live+a+more+colorful+life!+http://www.swatchity.com"><span>Facebook</span></a>
+					<a class="share_btn share_btn_facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?php echo $this_url; ?>&t=Swatchity+-+Live+a+more+colorful+life!+<?php echo $swatchity_config['base_domain']; ?>"><span>Facebook</span></a>
 
 					<a class="share_btn share_btn_twitter" target="_blank" href="https://twitter.com/intent/tweet?text=Swatchity:+Swatch+by+<?php echo urlencode($swatch['user_name']); ?>+%23Swatchity+<?php echo $short_url; ?>"><span>Twitter</span></a>
 
@@ -96,7 +96,7 @@
 					<div class="v_spacer_50"></div>
 
 					<h1 style="color:#249d82;"><i>Live a more colorful life today!</i></h1>
-					<a href="http://www.swatchity.com?login=true"><img src="images/public_btn_get_started.jpg" class="img_center_full" alt="get started"></a>
+					<a href="<?php echo $swatchity_config['base_domain']; ?>?login=true"><img src="images/public_btn_get_started.jpg" class="img_center_full" alt="get started"></a>
 
 				</div>
 
@@ -106,6 +106,7 @@
 			</div>
 				<div class="v_spacer_50"></div>
 				<div class="v_spacer_50"></div>
+
 
 		<style>
 			#swatch_main:after{
