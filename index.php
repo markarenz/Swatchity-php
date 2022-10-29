@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<?php if (isset($_SESSION['user_level'])){$user_level=$_SESSION['user_level']*1;} else { $user_level=-1;}?>
+<?php
+  session_start();
+  if (isset($_SESSION['user_level'])){$user_level=$_SESSION['user_level']*1;} else { $user_level=-1;}
+?>
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 <head>
 	<meta charset="UTF-8">
@@ -648,8 +651,10 @@ console.log(data);
 </div>
 
 <div id="main_loading">
-	<img alt="level image" src="images/levels/swatchity_512_level_<?php echo $user_level; ?>.jpg">
-	<h1>Loading</h1>
+  <div>
+    <img alt="level image" src="images/levels/swatchity_512_level_<?php echo $user_level; ?>.jpg">
+    <h1>Loading</h1>
+  </div>
 </div>
 
 
