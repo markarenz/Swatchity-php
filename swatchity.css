@@ -1430,7 +1430,10 @@ textarea{
 	font-family: 'Quicksand', century gothic, helvetica, arial, sans-serif;
 }
 #main_loading{
-	display:block;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 	position:absolute;
 	top:0;
 	left:0;
@@ -1438,8 +1441,10 @@ textarea{
 	height:100%;
 	background-color:#000;
 	z-index:2000;
-	text-align:center;
 	color:#ddd;
+}
+#main_loading h1{
+  text-align: center;
 }
 #main_loading img{
 	width:100%;
